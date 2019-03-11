@@ -1,6 +1,7 @@
 const glob = require('glob')
 let pages = {}
 module.exports.pages = function (){
+    console.log(glob.sync( './src/pages/*/*.js'));
     glob.sync( './src/pages/*/*.js').forEach(filepath =>
     {
         let fileList = filepath.split('/');

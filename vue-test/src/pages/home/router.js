@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+// var Home = import(/* webpackChunkName: "homeindex" */ './views/Home.vue')
 
 Vue.use(Router)
 
@@ -9,9 +10,12 @@ export default new Router({
   base: `${process.env.BASE_URL}/home.html`,
   routes: [
     {
-      path: '/index',
+      path: '/home',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {
+        keep: true
+      }
     },
     {
       path: '/about',
@@ -19,7 +23,10 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
+      meta: {
+        keep: false
+      }
     }
   ]
 })
