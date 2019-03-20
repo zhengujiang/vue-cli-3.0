@@ -13,6 +13,38 @@
       <strong>We're sorry but vue-test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <script>
+      function first() {
+        return new Promise((resolve, reject)=> {
+          console.log(10)
+          let p = new Promise((resolv, reject)=> {
+            console.log(11);
+            setTimeout(function() {
+              console.log(3);
+              resolv(2);
+            },0)
+            resolv(9);
+          })
+          resolve(4);
+          p.then(res => {
+            console.log(res);
+          })
+        })
+      }
+      first().then(res => {
+        console.log(res);
+      })
+      console.log(8);
+
+
+      (function(){
+        var a = b = 2;
+      })()
+      console.log('a', typeof a === 'undefined') 
+      console.log('b', typeof b === 'undefined')
+// 10  11  8  9  4  3
+      
+    </script>
     <!-- built files will be auto injected -->
   </body>
 </html>
