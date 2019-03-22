@@ -62,6 +62,7 @@ export default {
   },
   methods: {
     closeMask () {
+      console.log(333333)
       this.showMask = false
     },
     closeBtn () {
