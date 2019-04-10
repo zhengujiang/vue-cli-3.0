@@ -3,10 +3,31 @@
     <div id="nav">
       <router-link to="/home">Home</router-link> |
       <router-link to="/about">About</router-link>
+      {{num}}
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import { eventBus } from './components/eventBus.js'
+export default {
+  data () {
+    return {
+      num: 0
+    }
+  },
+  mounted () {
+    console.log(eventBus)
+    eventBus.$on('add', (obj) => {
+      this.num = obj.num
+    })
+    eventBus.$on('reduce', (obj) => {
+      this.num = obj.num
+    })
+  }
+}
+</script>
 
 <style lang="less">
 #app {

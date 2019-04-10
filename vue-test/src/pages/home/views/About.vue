@@ -1,51 +1,40 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
+    <button @click="add">增加</button>
+    <button @click="reduce">减少</button>
   </div>
 </template>
 
 <script>
+import config from '../../../components/config.js'
+import { eventBus } from '../components/eventBus.js'
 export default {
   data () {
     return {
-      timer: null
+      timer: null,
+      num: 1
     }
   },
+  mixins: [config],
   mounted () {
+    console.log(eventBus)
+    console.log(this)
     // window.onresize = this.debounce(this.resizeHand, 500)
-    window.onresize = this.throttle(this.resizeHand, 500)
+    window.onresize = this.throttle(this.resizeHand, 1000)
   },
   methods: {
-    // 函数防抖
-    debounce (method, time) {
-      let timer = null
-      return () => {
-        clearTimeout(timer)
-        timer = setTimeout(() => {
-          method()
-        }, time)
-      }
-    },
     resizeHand () {
       console.log(new Date())
     },
-    // 函数节流
-    throttle (method, time) {
-      let start = ''
-      let timer = null
-      return function loop () {
-        let end = new Date()
-        if (!start) start = end
-        if (end - start >= time) {
-          method()
-          start = end
-        } else {
-          clearTimeout(timer)
-          timer = setTimeout(() => {
-            loop()
-          }, 50)
-        }
-      }
+    add () {
+      this.num++
+      eventBus.$emit('add', { num: this.num })
+    },
+    reduce () {
+      this.num--
+      console.log(this.num)
+      eventBus.$emit('reduce', { num: this.num })
     }
   }
 }
