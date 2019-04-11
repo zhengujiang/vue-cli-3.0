@@ -1,0 +1,20 @@
+export default {
+  affiche1: `https://oss.in-hope.cn/xiaoan/h5_static/manual/affiche1@3x.png?${Math.random()}`,
+  affiche2: `https://oss.in-hope.cn/xiaoan/h5_static/manual/affiche2@3x.png?${Math.random()}`,
+  background: `https://oss.in-hope.cn/xiaoan/h5_static/manual/background@3x.png?${Math.random()}`,
+  calendar1: `https://oss.in-hope.cn/xiaoan/h5_static/manual/calendar1@3x.png?${Math.random()}`,
+  calendar2: `https://oss.in-hope.cn/xiaoan/h5_static/manual/calendar2@3x.png?${Math.random()}`,
+  choice: `https://oss.in-hope.cn/xiaoan/h5_static/manual/choice@3x.png?${Math.random()}`,
+  ipo: `https://oss.in-hope.cn/xiaoan/h5_static/manual/ipo@3x.png?${Math.random()}`,
+  law1: `https://oss.in-hope.cn/xiaoan/h5_static/manual/law1@3x.png?${Math.random()}`,
+  law2: `https://oss.in-hope.cn/xiaoan/h5_static/manual/law2@3x.png?${Math.random()}`,
+  law3: `https://oss.in-hope.cn/xiaoan/h5_static/manual/law3@3x.png?${Math.random()}`,
+  opinion: `https://oss.in-hope.cn/xiaoan/h5_static/manual/opinion@3x.png?${Math.random()}`,
+  reference: `https://oss.in-hope.cn/xiaoan/h5_static/manual/reference@3x.png?${Math.random()}`,
+  report: `https://oss.in-hope.cn/xiaoan/h5_static/manual/report@3x.png?${Math.random()}`,
+  testing: `https://oss.in-hope.cn/xiaoan/h5_static/manual/testing@3x.png?${Math.random()}`,
+  xh: `https://oss.in-hope.cn/xiaoan/h5_static/manual/xh@3x.png?${Math.random()}`,
+  manualRight: `https://oss.in-hope.cn/xiaoan/h5_static/manual/xiaoan-manual-right@3x.png?${Math.random()}`,
+  QCode: `https://oss.in-hope.cn/xiaoan/h5_static/manual/xiaoan-pc-QCode@3x.png?${Math.random()}`,
+  xiaoetong: `https://oss.in-hope.cn/xiaoan/h5_static/manual/xiaoetong@3x.png?${Math.random()}`
+}

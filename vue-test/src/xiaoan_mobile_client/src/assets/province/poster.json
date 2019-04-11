@@ -1,0 +1,40 @@
+{
+  "status": "0",
+  "result": [
+    {
+      "id": 0,
+      "name": "",
+      "type": "img",
+      "img": "https://oss.in-hope.cn/xiaoan/h5_static/poster/1.jpg",
+      "alt": ""
+    },
+    {
+      "id": 1,
+      "name": "",
+      "type": "img",
+      "img": "https://oss.in-hope.cn/xiaoan/h5_static/poster/2.jpg",
+      "alt": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "type": "img",
+      "img": "https://oss.in-hope.cn/xiaoan/h5_static/poster/3.jpg",
+      "alt": ""
+    },
+    {
+      "id": 3,
+      "name": "",
+      "type": "img",
+      "img": "https://oss.in-hope.cn/xiaoan/h5_static/poster/4.jpg",
+      "alt": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "type": "img",
+      "img": "https://oss.in-hope.cn/xiaoan/h5_static/poster/5.jpg",
+      "alt": ""
+    }
+  ]
+}

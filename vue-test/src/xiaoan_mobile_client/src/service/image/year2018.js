@@ -1,0 +1,58 @@
+
+export default {
+  active: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/active.png?${Math.random()}`,
+  active_white: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/active_white.png?${Math.random()}`,
+  bg: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/bg.png?${Math.random()}`,
+  coverEnd_logo: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/coverEnd_logo.png?${Math.random()}`,
+  dsh: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/dsh.png?${Math.random()}`,
+  endbg: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/endbg.png?${Math.random()}`,
+  hanqin_yinli: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/hanqin_yinli.png?${Math.random()}`,
+  hanqinbg: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/hanqinbg.png?${Math.random()}`,
+  importevent_biaoyu: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/importevent_biaoyu.png?${Math.random()}`,
+  importeventbg: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/importeventbg.png?${Math.random()}`,
+  improtevent_jili: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/improtevent_jili.png?${Math.random()}`,
+  jide: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/jide.png?${Math.random()}`,
+  last: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/last.png?${Math.random()}`,
+  logo: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/logo.png?${Math.random()}`,
+  next: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/next.png?${Math.random()}`,
+  person: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/person.png?${Math.random()}`,
+  qrCode: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/qrCode.png?${Math.random()}`,
+  shanhuibg: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/shanhuibg.png?${Math.random()}`,
+  work: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/work.png?${Math.random()}`,
+  xiaoanpro: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/xiaoanpro.png?${Math.random()}`,
+  xinku: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/xinku.png?${Math.random()}`,
+  xinpiline: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/xinpiline.png?${Math.random()}`,
+  xinpiline2: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/xinpiline2.png?${Math.random()}`,
+  xipibg: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/xipibg.png?${Math.random()}`,
+  zan: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/zan.png?${Math.random()}`,
+  ziben_biaoyu: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/ziben_biaoyu.png?${Math.random()}`,
+  zibenbg: `https://oss.in-hope.cn/xiaoan/h5_static/year2018/zibenbg.png?${Math.random()}`
+}
+
+// xiaoan/h5_static/year2018/active.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/active.png
+// xiaoan/h5_static/year2018/active_white.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/active_white.png
+// xiaoan/h5_static/year2018/bg.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/bg.png
+// xiaoan/h5_static/year2018/coverEnd_logo.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/coverEnd_logo.png
+// xiaoan/h5_static/year2018/dsh.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/dsh.png
+// xiaoan/h5_static/year2018/endbg.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/endbg.png
+// xiaoan/h5_static/year2018/hanqin_yinli.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/hanqin_yinli.png
+// xiaoan/h5_static/year2018/hanqinbg.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/hanqinbg.png
+// xiaoan/h5_static/year2018/importevent_biaoyu.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/importevent_biaoyu.png
+// xiaoan/h5_static/year2018/importeventbg.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/importeventbg.png
+// xiaoan/h5_static/year2018/improtevent_jili.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/improtevent_jili.png
+// xiaoan/h5_static/year2018/jide.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/jide.png
+// xiaoan/h5_static/year2018/last.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/last.png
+// xiaoan/h5_static/year2018/logo.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/logo.png
+// xiaoan/h5_static/year2018/next.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/next.png
+// xiaoan/h5_static/year2018/person.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/person.png
+// xiaoan/h5_static/year2018/qrCode.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/qrCode.png
+// xiaoan/h5_static/year2018/shanhuibg.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/shanhuibg.png
+// xiaoan/h5_static/year2018/work.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/work.png
+// xiaoan/h5_static/year2018/xiaoanpro.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/xiaoanpro.png
+// xiaoan/h5_static/year2018/xinku.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/xinku.png
+// xiaoan/h5_static/year2018/xinpiline.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/xinpiline.png
+// xiaoan/h5_static/year2018/xinpiline2.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/xinpiline2.png
+// xiaoan/h5_static/year2018/xipibg.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/xipibg.png
+// xiaoan/h5_static/year2018/zan.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/zan.png
+// xiaoan/h5_static/year2018/ziben_biaoyu.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/ziben_biaoyu.png
+// xiaoan/h5_static/year2018/zibenbg.png,http://an-announcement.oss-cn-shanghai.aliyuncs.com/xiaoan/h5_static/year2018/zibenbg.png

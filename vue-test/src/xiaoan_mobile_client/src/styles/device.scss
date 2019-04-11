@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*iphone X 在微信6.6.7下兼容*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  html, body {
+    // padding-bottom: constant(safe-area-inset-bottom);
+    // padding-bottom: env(safe-area-inset-bottom);
+  }
+  .iphonex-pt {
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+  }
+  .iphonex-pb {
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .iphonex-mt {
+    margin-top: constant(safe-area-inset-top);
+    margin-top: env(safe-area-inset-top);
+  }
+  .iphonex-mb {
+    margin-bottom: constant(safe-area-inset-bottom);
+    margin-bottom: env(safe-area-inset-bottom);
+  }
+  .iphonex-pl {
+    padding-left: constant(safe-area-inset-left);
+    padding-left: env(safe-area-inset-left);
+  }
+  .iphonex-pr {
+    padding-right: constant(safe-area-inset-right);
+    padding-right: env(safe-area-inset-right);
+  }
+  .iphonex-ml {
+    margin-left: constant(safe-area-inset-left);
+    margin-left: env(safe-area-inset-left);
+  }
+  .iphonex-mr {
+    margin-right: constant(safe-area-inset-right);
+    margin-right: env(safe-area-inset-right);
+  }
+  .iphonex-bd-top-bg {
+    border-top: 88px solid transparent;
+  }
+  .iphonex-bd-top {
+    border-top: 44px solid transparent;
+  }
+  .iphonex-bd-bottom {
+    border-bottom: 34px solid transparent;
+  }
+}

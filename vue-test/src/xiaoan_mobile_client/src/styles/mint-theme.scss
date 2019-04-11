@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* *
+  todo
+  @name 'mint-ui'
+  */
+.mint-toast {
+  z-index: 3100 !important;
+}
+.mint-button::after {
+  background-color: #f0f1f5 !important;
+}
+.mint-cell {
+  background-color: #f0f1f5;
+}
+.mint-cell-wrapper {
+  background: none !important;
+  background-size: 120% 0 !important;
+  height: 100% !important;
+  padding: 0 12px;
+  /*line-height: 55px !important;*/
+}
+.mint-msgbox-wrapper {
+  .mint-msgbox {
+    color: #323232 !important;
+    .mint-msgbox-content {
+      position: relative;
+      padding: 35px 12px;
+      min-height: auto;
+      font-size: 15px;
+      box-sizing: border-box;
+      .mint-msgbox-message {
+        color: #323232 !important;
+        line-height: 1.4;
+        font-size: 15px;
+      }
+      .mint-msgbox-input {
+      }
+    }
+    .mint-msgbox-btns {
+      position: relative;
+      display: table !important;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 0;
+      line-height: 1;
+      .mint-msgbox-btn {
+        border: 0;
+        display: table-cell;
+        width: 50%;
+        height: 100%;
+        box-sizing: border-box;
+        flex: none !important;
+        line-height: 1;
+      }
+      .mint-msgbox-btn.mint-msgbox-cancel {
+        background-color: white !important;
+        color: #ffb148 !important;
+        font-size: 15px;
+        font-weight: normal !important;
+      }
+      .mint-msgbox-btn.mint-msgbox-confirm {
+        background-color: #ffb148 !important;
+        color: white !important;
+        font-size: 15px;
+        font-weight: normal !important;
+      }
+    }
+  }
+}
+.mint-cell-text {
+  font-family: PingFangSC-Medium, sans-serif;
+  font-size: 15px !important;
+  vertical-align: inherit !important;
+}
+.mint-cell-value {
+  height: 100% !important;
+  width: 100% !important;
+  display: block !important;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 2px;
+}
+.mint-cell-title {
+  flex: 0;
+  flex: none;
+}
+.mint-cell:last-child {
+  background-size: 100% 0 !important;
+  height: 100% !important;
+}
+.mint-spinner-snake {
+  height: 14px !important;
+  width: 14px !important;
+  border: 2px solid transparent !important;
+  border-top-color: rgb(252, 199, 127) !important;
+  border-left-color: rgb(252, 199, 127) !important;
+  border-bottom-color: rgb(252, 199, 127) !important;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.infinite-loading {
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+}
+.snake {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, sans-serif, Microsoft Yahei, Helvetica;
+  color: #535353;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}

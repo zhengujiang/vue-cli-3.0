@@ -1,0 +1,97 @@
+@charset "UTF-8";
+#detail-contents {
+  padding: 12px;
+  text-align: justify;
+  word-spacing: 0;
+  color: #323232;
+  background: #ffffff;
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 20px;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-family: PingFangSC-Regular, sans-serif, PingFangSC-Thin, sans-serif, PingFangSC-Regular, sans-serif, Microsoft Yahei, Helvetica;
+    text-align: justify;
+    box-sizing: border-box;
+    text-indent: 2em;
+    word-break: break-all;
+    line-height: 25px;
+  }
+  .highlight {
+    color: #ffc051;
+  }
+  // 移除 属性的构造 属性
+  .graybg {
+    background-color: #e3e3e3 !important;
+    border-radius: 2px !important;
+  }
+  h1, h1 * {
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+  }
+  h1 {
+    padding: 10px 0 0 0;
+    margin-bottom: 20px;
+    font-family: PingFangSC-Medium, sans-serif, Microsoft Yahei, Helvetica;
+  }
+  h1 + p {
+    margin: 0;
+  }
+  div {
+    color: #323232;
+  }
+  h2, h2 * {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+  }
+  h3, h3 * {
+    box-sizing: border-box;
+    margin: 5px 0 5px 0;
+    font-size: 16px !important;
+    color: #323232 !important;
+  }
+  h4, h4 * {
+    font-size: 16px;
+    border-radius: 2px !important;
+    margin: 5px 0 !important;
+    text-indent: 2em !important;
+    text-decoration: line-through !important;
+  }
+  h5, h5 * {
+    margin: 0 !important;
+    text-align: right !important;
+    font-size: 16px !important;
+    color: #323232;
+    font-weight: normal !important;
+  }
+  h6, h6 * {
+    font-size: 14px !important;
+    font-style: oblique !important;
+    margin: 15px 0;
+  }
+  a {
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  a:hover, a:visited, a:link, a:active {
+    color: #3D3DF2;
+    text-decoration: none !important;
+  }
+  p cite, p cite * {
+    color: #3D3DF2;
+    font-style: italic !important;
+  }
+}
