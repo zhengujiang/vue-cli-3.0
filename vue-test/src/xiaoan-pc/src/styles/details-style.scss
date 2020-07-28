@@ -1,0 +1,145 @@
+@charset "UTF-8";
+#details-content {
+  width: 100%;
+  height: auto;
+  //margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: justify;
+  word-spacing: 0;
+  color: #323232;
+  font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, "Micro Hei", SimSun, 宋体, Heiti, 黑体, sans-serif !important;
+  * {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 34px;
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, "Micro Hei", SimSun, 宋体, Heiti, 黑体, sans-serif !important;
+  }
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 5px 0;
+    line-height: 20px;
+    font-weight: normal;
+  }
+  p {
+    margin: 0 0 16px 0;
+    text-align: justify;
+    box-sizing: border-box;
+    text-indent: 2em;
+    word-break: break-all;
+
+    text-justify: distribute;
+  }
+  h1, h1 * {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    text-align: center;
+  }
+  h1 {
+    padding: 20px 0 20px 0;
+  }
+  h1 + p {
+    margin: 0;
+  }
+  div {
+    color: #323232;
+  }
+  h2, h2 * {
+    margin: 0 0 16px 0;
+    font-weight: bolder;
+    text-indent: 2em;
+  }
+  h3, h3 * {
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+    color: #323232;
+    font-weight: 700;
+    text-indent: 2em;
+  }
+  h4, h4 * {
+    border-radius: 2px !important;
+    margin: 0 0 5px 0 !important;
+    text-indent: 2em !important;
+    text-decoration: line-through !important;
+    font-weight: 500;
+  }
+  h5, h5 * {
+    margin: 0;
+    text-align: right !important;
+    color: #323232;
+    font-weight: normal;
+  }
+  h6, h6 * {
+    font-size: 14px !important;
+    font-style: oblique !important;
+    margin: 15px 0;
+  }
+  a {
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  a:hover, a:visited, a:link, a:active {
+    color: #3D3DF2;
+    text-decoration: none !important;
+  }
+  p cite, p cite * {
+    color: #3D3DF2;
+    font-style: italic !important;
+  }
+  table {
+    padding: 0 !important;
+    width: 100% !important;
+    border-spacing: 0;
+    border: 0;
+    border-collapse: collapse;
+  }
+  table td {
+    width: 0 !important;
+    text-shadow: none !important;
+    word-break: break-all !important;
+    word-wrap: break-word !important;
+    margin: 0 !important;
+    vertical-align: middle;
+    /*border-width: 1px 1px 1px 1px;*/
+    /*border-style: solid;*/
+    /*border-color: #323232;*/
+    border-collapse: collapse;
+    padding: 0 10px;
+    /*3423*/
+  }
+  table td p {
+    text-indent: 0;
+    margin: 5px 0;
+  }
+  .MsoHeading7 {
+    text-align: center !important;
+    padding-bottom: 0;
+    text-indent: 0;
+  }
+  > table > tbody > tr > td {
+    border-color: #aeaeae !important;
+  }
+  img {
+    width: 90%;
+    /* padding: 0 1px;*/
+  }
+  i {
+    font-style: normal;
+  }
+  /**************表格横向滚动*************/
+  .wrapScoller, .wrapScoller * {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .wrapScoller {
+    /* border: 1px solid #323232;*/
+    padding-top: 5px;
+    padding-bottom: 2px;
+  }
+  .wrap {
+    overflow-x: auto;
+  }
+}

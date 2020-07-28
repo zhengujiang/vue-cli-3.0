@@ -1,0 +1,261 @@
+@import "search-header-animate";
+.search-header-style {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-size: cover;
+  padding: 36px 0;
+  overflow: hidden;
+  .search {
+    min-width: 1200px;
+    height: 44px;
+    margin: auto;
+    position: relative;
+    z-index: 300;
+    input {
+      text-align: left !important;
+    }
+    .searchCode, .search-flex {
+      float: left;
+      width: 180px;
+      height: 44px;
+      .codeBox {
+        width: 100%;
+        height: 44px;
+        border-radius: 4px;
+        -moz-box-shadow: 0px 0px 2px #FFB148;
+        -webkit-box-shadow: 0px 0px 2px #FFB148;
+        box-shadow: 0px 0px 2px #FFB148;
+        overflow: hidden;
+        input {
+          width: 100%;
+          height: 44px;
+          border: 0;
+          line-height: 44px;
+          color: #5a5e66;
+          outline: none;
+          padding: 0 15px;
+          box-sizing: border-box;
+          font-size: 16px;
+        }
+        :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+          color: #aeaeae;
+          opacity: 1;
+        }
+        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+          color: #aeaeae;
+          opacity: 1;
+        }
+        input:-ms-input-placeholder {
+          color: #aeaeae;
+          opacity: 1;
+        }
+        input::-webkit-input-placeholder {
+          color: #aeaeae;
+          opacity: 1;
+        }
+        .el-autocomplete {
+          .el-input {
+            .el-input__inner {
+              width: 100%;
+              height: 44px;
+              border: 0;
+              font-size: 20px;
+              line-height: 44px;
+            }
+          }
+        }
+      }
+    }
+    .searchCode {
+      margin-right: 20px;
+      margin-top: -16px;
+    }
+    .search-flex {
+      display: flex;
+      float: left;
+      width: 750px;
+      height: 44px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      transition: all .3s;
+      &.search-form {
+        width: 930px;
+        &.searchAuto {
+          margin-right: 0;
+        }
+      }
+      .el-autocomplete {
+        width: 100%;
+        height: 44px;
+      }
+      .seniorShow {
+        animation: contentShow 0.6s forwards;
+        -moz-animation: contentShow 0.6s forwards;
+        -webkit-animation: contentShow 0.6s forwards;
+        -o-animation: contentShow 0.6s forwards;
+      }
+      .seniorShow:last-child {
+        animation: titleShow 0.6s forwards;
+        -moz-animation: titleShow 0.6s forwards;
+        -webkit-animation: titleShow 0.6s forwards;
+        -o-animation: titleShow 0.6s forwards;
+      }
+      .row {
+        flex: 1;
+        margin-right: 20px;
+        &.codeBox {
+          margin-right: 0;
+        }
+        &.text-other {
+          .cell {
+            width: 345px;
+            span {
+              width: 68px;
+            }
+            input {
+              width: 277px;
+            }
+          }
+        }
+        .cell {
+          width: 100%;
+          height: 44px;
+          display: table;
+          margin-bottom: 16px;
+          border-radius: 4px;
+          -moz-box-shadow: 0px 0px 2px #FFB148;
+          -webkit-box-shadow: 0px 0px 2px #FFB148;
+          box-shadow: 0px 0px 2px #FFB148;
+          overflow: hidden;
+          .label-row, input {
+            width: 45px;
+            display: table-cell;
+            height: 44px;
+            /*line-height: 44px;*/
+            vertical-align: middle;
+            text-align: center;
+            font-size: 16px;
+            color: #636363;
+          }
+          .el-input {
+            display: table;
+          }
+          .label-row {
+            background: #ffc87f;
+          }
+          input {
+            width: 135px;
+            border: 0;
+            border-radius: 0;
+          }
+          .el-date-editor.el-input, .el-date-editor.el-input__inner {
+            width: 100%;
+            //.el-input__prefix, .el-input__suffix {
+            //  display: none;
+            //}
+            .el-input__suffix-inner {
+              i {
+                color: #aeaeae;
+                font-size: 16px;
+              }
+            }
+            input {
+              width: 100%;
+              padding: 0 0 0 15px;
+            }
+          }
+        }
+      }
+    }
+    .searchButton {
+      width: 125px;
+      height: 44px;
+      background: #ffb148;
+      padding: 0 !important;
+      border: 0;
+      border-radius: 0;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      -moz-box-shadow: 0px 0px 2px #FFB148;
+      -webkit-box-shadow: 0px 0px 2px #FFB148;
+      box-shadow: 0px 0px 2px #FFB148;
+      &.buttonFlag {
+        border-radius: 4px !important;
+      }
+      i {
+        font-size: 24px;
+        color: #fff;
+      }
+      &:active {
+        background: rgba(255, 177, 72, 0.72);
+      }
+    }
+    .searchSenior {
+      float: right;
+      margin-left: 20px;
+      .seniorButton {
+        width: 125px;
+        height: 44px;
+        background: #f6debd;
+        color: #ffb148;
+        font-size: 18px;
+        &:active {
+          background: #f9e9d5;
+        }
+        .searchSanjiao {
+          margin-left: 10px;
+        }
+        .web-sanjiaoxing:before {
+          font-size: 14px !important;
+        }
+        .el-icon-arrow-down:before {
+          content: "\E60B"
+        }
+      }
+    }
+    .seniorPanelA {
+      animation: dateShow 0.6s forwards;
+      -moz-animation: dateShow 0.6s forwards;
+      -webkit-animation: dateShow 0.6s forwards;
+      -o-animation: dateShow 0.6s forwards;
+    }
+    .searchReset {
+      color: #ffb148;
+      font-size: 18px;
+      font-weight: bold;
+      float: right;
+      cursor: pointer;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      margin-top: 16px;
+      .resetButton {
+        width: 125px;
+        height: 44px;
+        background: transparent;
+        border-color: transparent;
+        color: #ffb148;
+        font-size: 18px;
+      }
+    }
+    .seniorResetA {
+      animation: seniorResetA 0.6s forwards;
+      -moz-animation: seniorResetA 0.6s forwards;
+      -webkit-animation: seniorResetA 0.6s forwards;
+      -o-animation: seniorResetA 0.6s forwards;
+    }
+  }
+  .searchAuto {
+    animation: searchAuto 0.6s forwards;
+    -moz-animation: searchAuto 0.6s forwards;
+    -webkit-animation: searchAuto 0.6s forwards;
+    -o-animation: searchAuto 0.6s forwards;
+  }
+  .searchHeight {
+    animation: searchHeight 0.6s forwards;
+    -moz-animation: searchHeight 0.6s forwards;
+    -webkit-animation: searchHeight 0.6s forwards;
+    -o-animation: searchHeight 0.6s forwards;
+  }
+}

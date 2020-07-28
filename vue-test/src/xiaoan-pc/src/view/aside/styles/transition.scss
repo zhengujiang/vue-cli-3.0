@@ -1,0 +1,52 @@
+.vux-fade-enter-active, .vux-fade-leave-active {
+  opacity: 1;
+  transition: opacity linear 0.2s;
+}
+.vux-fade-enter, .vux-fade-leave-to {
+  opacity: 0;
+}
+.vux-dialog-enter-active {
+  animation: vux-dialog-in .5s;
+}
+.vux-dialog-leave-active {
+  animation: vux-dialog-out .3s;
+}
+@keyframes vux-dialog-in {
+  0% {
+    transform: scale(1.185);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes vux-dialog-out {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+}
+.vux-mask-enter, .vux-mask-leave-active {
+  opacity: 0;
+  width: 0;
+}
+.vux-mask-leave-active, .vux-mask-enter-active {
+  transition: opacity 300ms, width .3s;
+}
+.vux-popup-animate-bottom-enter, .vux-popup-animate-bottom-leave-active {
+  transform: translate3d(0, 100%, 0);
+}
+.vux-popup-animate-left-enter, .vux-popup-animate-left-leave-active {
+  transform: translate3d(-100%, 0, 0);
+}
+.vux-popup-animate-right-enter, .vux-popup-animate-right-leave-active {
+  transform: translate3d(100%, 0, 0);
+}
+.vux-popup-animate-top-enter, .vux-popup-animate-top-leave-active {
+  transform: translate3d(0, -100%, 0);
+}

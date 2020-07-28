@@ -1,0 +1,81 @@
+$img: '.vxa-image';
+
+.vxa-image {
+  &-bg-affiche {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/afficheBg.png?1231232121);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  &-bg-enterprise {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAAAdCAYAAABVJGknAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzE2NzIxNzk3MzhDMTFFOEJDQTE5RDI0Q0VEQUU2MzMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzE2NzIxN0E3MzhDMTFFOEJDQTE5RDI0Q0VEQUU2MzMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3MTY3MjE3NzczOEMxMUU4QkNBMTlEMjRDRURBRTYzMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3MTY3MjE3ODczOEMxMUU4QkNBMTlEMjRDRURBRTYzMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pnnrb9AAAAlPSURBVHja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);
+    background-size: cover;
+  }
+  &-index-bg-banner {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/index_bg.jpg?123123123);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-index-bg-arrow {
+    background-color: #f2f1f1;
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/index_down_arrow.png?123123123);
+    background-size: cover;
+  }
+  &-index-bg-empty {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/institution_empty.png?2312313);
+    background-repeat: no-repeat;
+    background-position: center 20%;
+  }
+  &-index-bg-empty2 {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/institution_empty2.png?1231231231);
+    background-repeat: no-repeat;
+    background-position: center 20%;
+  }
+  &-passport-bg-companybg {
+    background: url(https://oss.in-hope.cn/xiaoan/web_static/companybg.jpg?123123123) top center;
+    background-size: cover;
+  }
+  &-passport-bg-hide {
+    background: url(https://oss.in-hope.cn/xiaoan/web_static/hide.png?1231313) no-repeat;
+  }
+  &-passport-bg-off {
+    background: url(https://oss.in-hope.cn/xiaoan/web_static/off.png?412313123) no-repeat;
+  }
+  //
+  &-reportAudit-bg-banner {
+    background: center / auto 100% no-repeat url(https://oss.in-hope.cn/xiaoan/web_static/reportAudit_banner.jpeg?12321313);
+  }
+  // sentiment
+  &-sentiment-bg-company-slogan {
+    background: url(./../assets/image/sentiment/company-slogan.png?123123211) no-repeat center;
+    background-size: 100% 100%;
+  }
+  // stockholder
+  &-stockholder-bg-menubg {
+    background: url(https://oss.in-hope.cn/xiaoan/web_static/stockholder_menubg.png?23432424) no-repeat;
+    background-size: 100% 100%;
+  }
+  // user
+  &-user-bg-cross {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/user_cross.png?0.1231231312321);
+  }
+  &-user-bg-person {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/user_person.png?234234324);
+    background-size: cover;
+  }
+  &-user-bg-qrcode {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/user_qrcode.png?23423423);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  &-user-bg-qrcode2 {
+    background-image: url(https://oss.in-hope.cn/xiaoan/web_static/user_qrcode2.jpeg?24234324);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  // xinhu
+  &-xh-bg-banner {
+    background: url(https://oss.in-hope.cn/xiaoan/web_static/xh_maTop.png?234234324234) no-repeat 100% 100%;
+  }
+}
+

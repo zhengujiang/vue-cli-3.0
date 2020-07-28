@@ -1,0 +1,373 @@
+@charset "UTF-8";
+@import "theme-style";
+/*
+  *form Evans
+*/
+.vxa-hover {
+  transition: all .3s;
+  &:hover {
+    transition: all .3s;
+  }
+}
+.vxa-card-box {
+  .vxa-card_head {
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    .time {
+      font-size: 14px;
+      font-weight: normal;
+      color: #8D8D8D;
+    }
+  }
+  .vux-card_content {
+    height: 220px;
+    position: relative;
+  }
+  &.vux-card__margin {
+    margin-bottom: 20px;
+  }
+  .vxa-card__about {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(141, 141, 141, 1);
+    line-height: 17px;
+  }
+}
+.vxa_card-b-margin {
+  margin-bottom: 16px;
+}
+//
+.vxa-footer-page-radio {
+  &.el-radio-group {
+    .el-radio-button__inner {
+      padding: 5px 9px 5px 9px;
+      line-height: 17px;
+    }
+  }
+}
+.vxa-pagination-small {
+  &.el-pagination {
+    padding: 0;
+    .btn-next {
+      margin-right: 0;
+    }
+    .btn-prev {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+.vxa-footer-page-pagination {
+  &.el-pagination {
+    padding: 0;
+    .btn-prev, .btn-next, li {
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      border: 1px solid #e3e3e3;
+      box-sizing: border-box;
+      padding: 0;
+      min-width: 30px;
+      .el-icon {
+        font-size: 14px;
+      }
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+    .el-pager {
+      li {
+        font-size: 12px;
+        color: #8d8d8d;
+        font-weight: 400;
+      }
+      li.active {
+        color: #fff;
+        background: #ffb148;
+      }
+    }
+    .btn-next {
+      margin-left: 10px;
+      color: #b4bccc;
+    }
+    .btn-prev {
+      color: #b4bccc;
+    }
+  }
+}
+//
+.vxa-header-th {
+  line-height: 1.5;
+}
+.vxa-flax-box {
+  display: flex;
+  &.align {
+    align-items: center;
+  }
+  .col {
+    flex: 1;
+  }
+}
+.t-right {
+  text-align: right;
+}
+.t-center {
+  text-align: center;
+}
+.t-left {
+  text-align: left;
+}
+//
+.vxa-table {
+  width: 100%;
+}
+.vxa-container {
+  width: 1230px;
+  padding: 0 15px;
+  height: auto;
+  margin: 0 auto;
+  // overflow: hidden;
+  position: relative;
+}
+.vxa-container-box {
+  min-height: 600px;
+  transition: height .3s ease-in-out;
+}
+.vxa-scrollbar-no-shadow {
+  &::-webkit-scrollbar {
+    box-shadow: none;
+  }
+}
+.vxa-is-right {
+  text-align: right;
+}
+.vxa-a-hover {
+  &:hover {
+    color: #FFB148;
+    &.underline {
+      text-decoration: underline;
+    }
+    cursor: pointer;
+  }
+}
+.vxa-click-text {
+  padding: 3px 0;
+  color: #ffb148;
+  border-bottom: 1px solid #ffb148;
+  cursor: pointer;
+}
+.vxa-select-box {
+  .el-input {
+    line-height: 1;
+  }
+}
+.vux-1px {
+  border: 1px solid #e3e3e3;
+}
+.vux-1px-b {
+  border-bottom: 1px solid #e3e3e3;
+}
+.vux-1px-t {
+  border-top: 1px solid #e3e3e3;
+}
+.vux-1px-l {
+  border-left: 1px solid #e3e3e3;
+}
+.vux-1px-tb {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.vux-1px-r {
+  border-right: 1px solid #e3e3e3;
+}
+.vxa-line-clamp {
+  position: relative;
+  line-height: 1.4em;
+  /* 3 times the line-height to show 3 lines */
+  height: 4.2em;
+  overflow: hidden;
+  &:after {
+    content: "...";
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 20px 1px 45px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAAAoCAYAAAAouML7AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAuGAAALhgBKqonIAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAFESURBVHic7dzrCsIwDIbhTGG7/yuOfzyMuVO7Zm2T9wERpMo0Hz3Y0UFERFVHEZnej3H2PK689tdGVafE9yzb7r33KSep6tmmplq4DutreJh++s/Rt6j/SyNJSnAoPr6WwalZfILXkbuGKjiTE5wrPQO9ihP0OMiyFRzmOthl1eOwAnNuLzgUH5tqznEIXseuBsey+ASrYdY9DsV36kxwWGHhzx1zHCbZDpUKDsUPZh4chiScdudynHA4khocig8RKd/jEKwg1oLDXAeHLOY4LL8DyL2tguIHV2uTk+B17kpw2OAM7Cg43F+MVS3vjhO8htW+WZ1wdKpEcCh+QJ/gsPxGkiJD1TAMR00InjMlDx1AICUnxwQrEE6rQJbSu+NMsoO4+7QKOFHjD0CC50BucCyHJILVgSuHDlgiPI2rvVeFTr0AJUZMBxSprXAAAAAASUVORK5CYII=") repeat-y;
+  }
+}
+/*form Evans*/
+.divider-box {
+  width: 100%;
+  padding: 0 30%;
+  .vux-divider {
+    display: table;
+    white-space: nowrap;
+    height: auto;
+    overflow: hidden;
+    line-height: 1;
+    text-align: center;
+    padding: 20px 0;
+    color: #aeaeae;
+    font-size: 14px;
+  }
+  .vux-divider:after, .vux-divider:before {
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC)
+  }
+  .vux-divider:before {
+    background-position: right 1em top 50%
+  }
+  .vux-divider:after {
+    background-position: left 1em top 50%
+  }
+}
+//
+.text-hidden {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.badge-bg-color {
+  background-color: #f74c31;
+}
+.sh-bg-color {
+  background-color: #FEA690;
+}
+.sz-bg-color {
+  background-color: #90b8f5;
+}
+.font-size-16 {
+  font-size: 16px;
+  color: $font-color-title;
+}
+.font-size-14 {
+  font-size: 14px;
+  color: $font-color-about;
+}
+.font-size-12 {
+  font-size: 12px;
+  color: $font-color-desc;
+}
+/**
+ @new 最新小安模板调整
+
+**/
+#vxa-foot-pagination {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  text-align: inherit;
+  .row {
+    flex: 1;
+    &:last-child {
+      flex: inherit;
+      .el-radio-button--mini .el-radio-button__inner {
+        padding: 8px;
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+  }
+  .btn-prev, .btn-next, li {
+    margin-right: 10px;
+    width: auto;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    padding: 0 8px;
+    min-width: 30px;
+    .el-icon {
+      font-size: 14px;
+    }
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+  .el-pager {
+    li {
+      font-size: 12px;
+      color: #8d8d8d;
+      font-weight: 400;
+    }
+    li.active {
+      color: #fff;
+      background: #ffb148;
+    }
+  }
+  .btn-next {
+    margin-left: 10px;
+    color: #b4bccc;
+  }
+  .btn-prev {
+    color: #b4bccc;
+  }
+}
+.vxa-box-card {
+  padding: 0;
+  &.margin-t {
+    margin-top: 15px;
+  }
+  &.margin-b {
+    margin-bottom: 15px;
+  }
+  &.margin-tb {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .vxa-card-header {
+    height: 44px;
+    .bold {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .header-right {
+      font-size: 14px;
+      color: #606266;
+    }
+  }
+  .vxa-card-content {
+    padding-bottom: 16px;
+  }
+  .vxa-card-picker {
+    &.el-date-editor.el-input {
+      width: 118px;
+    }
+    &.el-input--suffix .el-input__inner {
+      padding-right: 0;
+    }
+  }
+  .vxa-card-select {
+    .el-input {
+      width: 150px;
+    }
+  }
+}
+//
+.vxa-1px {
+  border: 1px solid #e3e3e3;
+}
+.vxa-1px-b {
+  border-bottom: 1px solid #e3e3e3;
+}
+.vxa-1px-t {
+  border-top: 1px solid #e3e3e3;
+}
+.vxa-1px-l {
+  border-left: 1px solid #e3e3e3;
+}
+.vxa-1px-tb {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.vxa-1px-r {
+  border-right: 1px solid #e3e3e3;
+}

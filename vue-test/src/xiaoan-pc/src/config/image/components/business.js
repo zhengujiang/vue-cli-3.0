@@ -1,0 +1,31 @@
+export default {
+  schoolCkkc1: '',
+  schoolCkkc2: '',
+  schoolHykXpVip: '',
+  schoolHykZxVip: '',
+  schoolHykChVip: '',
+  schoolHykZbVip: '',
+  schoolXgjd1: '',
+  schoolXgjd2: '',
+  schoolXgjd3: '',
+  schoolXgjd4: '',
+  schoolXxpl1: '',
+  schoolXxpl2: '',
+  schoolXxpl3: '',
+  schoolXxpl4: '',
+  schoolXxpl5: '',
+  schoolXxpl6: '',
+  schoolXxpl7: '',
+  schoolZbyz1: '',
+  schoolZbyz2: '',
+  schoolZbyz3: '',
+  schoolZbyz4: '',
+  schoolZbyz5: '',
+  schoolZbyz6: '',
+  //
+  testDongmiTest: '',
+  //
+  training1: '',
+  training2: '',
+  training3: ''
+}

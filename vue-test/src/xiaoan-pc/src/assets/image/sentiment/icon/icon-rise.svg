@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3px" height="12px" viewBox="0 0 3 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>上升icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="投影" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-公司舆情" transform="translate(-430.000000, -306.000000)" fill="#FFB148">
+            <g id="第一排" transform="translate(200.000000, 230.000000)">
+                <g id="实时舆情">
+                    <g id="上升icon" transform="translate(230.000000, 76.000000)">
+                        <polygon points="1.98621603 4.61816822 1.98621603 11.6375631 0.986216033 11.6375631 0.986216033 4.61816822 0 4.61816822 1.5254296 0 2.9875209 4.61816822"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
