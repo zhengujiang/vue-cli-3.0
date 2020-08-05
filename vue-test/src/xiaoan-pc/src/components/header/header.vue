@@ -795,7 +795,7 @@
       // this.getAllSuperviseCompanyByUser()
       // this.checkIsGxfUser()
     },
-    mounted() {getElementsByClassName
+    mounted() {
       // document.body.addEventListener('mouseleave', function (e) {
       //   console.log(e);
       // })

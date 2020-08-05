@@ -1,4 +1,5 @@
-let protocol = document.location.protocol == 'https:' ? 'https:' : 'http:'
+// let protocol = document.location.protocol == 'https:' ? 'https:' : 'http:'
+let protocol = 'https:'
 const HOSTS = {
   dev: {
     api1: protocol + '//dev.in-hope.com.cn/zuul/', // 接口地址
@@ -117,13 +118,13 @@ const HOSTS = {
     appid: 'wxff02d74bb4a459d0',
     mobileHost: 'http://wx.in-hope.cn/',
     xinhuUserId: '',
-    user: protocol + '//api.in-hope.cn/user/', // 地址更换user
+    user: protocol + '//api.in-hope.cn/user/user/', // 地址更换user
     business: protocol + '//api.in-hope.cn/business/',
     calendar: protocol + '//api.in-hope.cn/calendar/',
     caselaw: protocol + '//api.in-hope.cn/caseLaw/',
-    disclosure: protocol + '//api.in-hope.cn/disclosure/',
+    disclosure: protocol + '//api.in-hope.cn/big-data/disclosure/',
     enterprise: protocol + '//api.in-hope.cn/enterprise/',
-    law: protocol + '//api.in-hope.cn/law/',
+    law: protocol + '//api.in-hope.cn/big-data/law/',
     listedcompany: protocol + '//api.in-hope.cn/listCompany/',
     interact: protocol + '//api.in-hope.cn/interact/',
     usermsg: protocol + '//api.in-hope.cn/message/',

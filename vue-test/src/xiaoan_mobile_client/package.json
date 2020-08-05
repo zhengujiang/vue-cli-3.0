@@ -5,7 +5,7 @@
   "author": "caiwendi <wendi.cai@infaith.com.cn>",
   "private": true,
   "scripts": {
-    "start": "cross-env XA_ENV=dev webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "cross-env XA_ENV=staging webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "local.in-hope.com.cn": "cross-env XA_ENV=dev webpack-dev-server --host local.in-hope.com.cn --inline --progress --config build/webpack.dev.conf.js",
     "Evans": "cross-env XA_ENV=dev webpack-dev-server --host 192.168.150.30 --inline --progress --config build/webpack.dev.conf.js",
     "development": "cross-env XA_ENV=development node build/build.js",

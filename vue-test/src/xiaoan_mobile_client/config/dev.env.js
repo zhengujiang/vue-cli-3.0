@@ -4,5 +4,5 @@ const prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"dev"',
-  XA_ENV: '"dev"'
+  XA_ENV: '"production"'
 })

@@ -1,6 +1,6 @@
 import HOSTS from '@/service/host' // HOSTS抽离
-const HOST = HOSTS[process.env.XA_ENV]
-// const HOST = HOSTS['testing']
+// const HOST = HOSTS[process.env.XA_ENV]
+const HOST = HOSTS['production']
 const GXFHOST = HOST.gxfApi;
 const BUSINESS = HOST.api.replace('/zuul', '/v1');
 const MOBHOST = HOST.api.replace('/zuul', '/v1').replace('desktop', 'api');

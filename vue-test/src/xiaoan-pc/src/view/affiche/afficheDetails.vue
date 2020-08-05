@@ -320,7 +320,8 @@
             this.pubDate = this.$common.transTime(obj.releaseDate)[0]
             var httpText = document.location.protocol == 'https:' ? 'https:' : 'https:'
             var url = httpText + '//' + obj.url.split('://')[1]
-            this.pdfUrl = this.$api.host + 'static/pdf/web/viewer.html?file=' + url
+            // this.pdfUrl = this.$api.host + 'static/pdf/web/viewer.html?file=' + url
+            this.pdfUrl = url
             // this.pdfUrl = `http://local.in-hope.com.cn:8081/static/pdf/web/viewer.html`
             this.isLoading = false
             if (obj.relationAnnouncementList) {

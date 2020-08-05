@@ -11,7 +11,7 @@ export default {
   },
   // 公告查询
   afficheSearch(params) {
-    return Axios({method: 'GET', url: api.affiche.afficheSearch, params: params})
+    return Axios({method: 'POST', url: api.affiche.afficheSearch, params: params})
   },
   // 公告详情
   afficheContent(params) {

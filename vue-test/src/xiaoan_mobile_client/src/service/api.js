@@ -6,11 +6,12 @@
  * **/
 import {HOSTS, protocol} from '@/service/host'
 // const protocol = document.location.protocol == 'https:' ? 'https:' : 'http:';
-// console.log(process.env)
+console.log(process.env)
 const User = HOSTS[process.env.XA_ENV].user
 const HOST = HOSTS[process.env.XA_ENV].domain
 const Calendar = HOSTS[process.env.XA_ENV].calendar
 const Disclosure = HOSTS[process.env.XA_ENV].disclosure
+console.log(Disclosure)
 // const Disclosure = HOSTS['testing'].disclosure
 const Enterprise = HOSTS[process.env.XA_ENV].enterprise
 const Law = HOSTS[process.env.XA_ENV].law

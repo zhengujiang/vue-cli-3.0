@@ -35,6 +35,7 @@
           }
           // url = `http://local.in-hope.com.cn:8082/static/pdf/web/viewer.html`
         }
+        console.log(url)
         return url
       }
     },

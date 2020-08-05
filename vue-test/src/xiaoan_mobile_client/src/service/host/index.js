@@ -4,7 +4,8 @@
  * @接口
  * @name Evans_Cai
  * */
-const protocol = document.location.protocol == 'https:' ? 'https:' : 'http:';
+// const protocol = document.location.protocol == 'https:' ? 'https:' : 'http:';
+const protocol = 'https:';
 const HOSTS = {
   dev: {
     // 本地
@@ -76,9 +77,9 @@ const HOSTS = {
     user: protocol + '//api.in-hope.cn/user/',
     domain: protocol + '//api.in-hope.cn/',
     calendar: protocol + '//api.in-hope.cn/calendar/',
-    disclosure: protocol + '//api.in-hope.cn/disclosure/',
+    disclosure: protocol + '//api.in-hope.cn/big-data/disclosure/',
     enterprise: protocol + '//api.in-hope.cn/enterprise/',
-    law: protocol + '//api.in-hope.cn/law/',
+    law: protocol + '//api.in-hope.cn/big-data/law/',
     listCompany: protocol + '//api.in-hope.cn/listCompany/',
     usermsg: protocol + '//api.in-hope.cn/message/',
     publish: protocol + '//api.in-hope.cn/publish/',
@@ -106,9 +107,9 @@ const HOSTS = {
     user: protocol + '//api.in-hope.cn/user/',
     domain: protocol + '//api.in-hope.cn/',
     calendar: protocol + '//api.in-hope.cn/calendar/',
-    disclosure: protocol + '//api.in-hope.cn/disclosure/',
+    disclosure: protocol + '//api.in-hope.cn/big-data/disclosure/',
     enterprise: protocol + '//api.in-hope.cn/enterprise/',
-    law: protocol + '//api.in-hope.cn/law/',
+    law: protocol + '//api.in-hope.cn/big-data/law/',
     listCompany: protocol + '//api.in-hope.cn/listCompany/',
     usermsg: protocol + '//api.in-hope.cn/message/',
     publish: protocol + '//api.in-hope.cn/publish/',

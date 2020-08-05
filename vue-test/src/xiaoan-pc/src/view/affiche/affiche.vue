@@ -820,9 +820,32 @@
       /* 获取筛选的类 */
       preparation() {
         let data = [], data1 = []
+        console.log(222222222)
         this.$http({
-          method: 'GET',
-          url: this.$api.affiche.afficheSearch
+          method: 'POST',
+          url: this.$api.affiche.afficheSearch,
+          params: {
+            announcementType: "",
+            companyCode: "",
+            content: "",
+            dispatchUnit: "",
+            exceptContent: "",
+            exceptTitle: "",
+            fullText: "",
+            informationRating: "",
+            keyword: "",
+            marketType: "",
+            pageNum: 1,
+            pageSize: 30,
+            possibleContent: "",
+            possibleTitle: "",
+            searchScope: "",
+            searchType: "",
+            sort: "mix",
+            title: "",
+            tradeType: "",
+            userId: null
+          }
         }).then((res) => {
           if (res.data.returnCode == 1) {
             let content = res.data.returnObject.conditions
